@@ -14,3 +14,4 @@ class GCloudSync:
         command = f"gsutil cp gs://{gcp_bucket_url}/{filename} {destination}/{filename}"
         # command = f"gcloud storage cp gs://{gcp_bucket_url}/{filename} {destination}/{filename}"
         os.system(command)
+        
